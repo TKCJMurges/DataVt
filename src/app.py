@@ -24,7 +24,7 @@ import numpy as np
 from datetime import datetime, timedelta
 
 # Data loading and preprocessing
-stock_data = pd.read_csv("https://raw.githubusercontent.com/TKCJMurges/dataVS/main/data.csv")
+stock_data = pd.read_csv("src/data.csv")
 stock_data['Volume'] = pd.to_numeric(stock_data['Volume'].str.replace(',', ''),
                                      errors='coerce')
 

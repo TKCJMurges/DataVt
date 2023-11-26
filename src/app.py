@@ -104,9 +104,6 @@ fig_bc = go.Figure()
 fig_ts = go.Figure()
 fig2 = go.Figure()
 
-# Initialize the Dash app
-app = dash.Dash(__name__)
-
 # Define your layout for each visualization
 # Visualization 1 layout
 visualization_1_layout = html.Div([
